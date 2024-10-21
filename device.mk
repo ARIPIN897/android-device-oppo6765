@@ -105,4 +105,4 @@ PRODUCT_PACKAGES += \
     ueventd.mt6765.rc
 
 # Inherit vendor
-$(call inherit-product, vendor/oppo/CPH2083/CPH2083-vendor.mk
+$(call inherit-product, vendor/oppo/CPH2083/CPH2083-vendor.mk)
