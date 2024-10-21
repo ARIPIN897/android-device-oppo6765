@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=OP4BFB
+DEVICE=CPH2083
 VENDOR=oppo
 
 # Load extract_utils and do some sanity checks

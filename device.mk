@@ -1,3 +1,12 @@
+# API levels
+PRODUCT_SHIPPING_API_LEVEL := 28
+
+# VNDK
+PRODUCT_EXTRA_VNDK_VERSIONS := 28
+
+# A/B
+AB_OTA_UPDATER := false
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
