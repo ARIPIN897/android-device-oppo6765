@@ -7,6 +7,9 @@ VENDOR_SECURITY_PATCH := 2020-05-05
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
+# Kernel
+TARGET_KERNEL_CONFIG := oppoa12_defconfig
+
 # VINTF
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/manifests/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/manifests/compatibility_matrix.xml
