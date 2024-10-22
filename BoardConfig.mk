@@ -79,6 +79,9 @@ TARGET_KERNEL_CONFIG := oppoa12_defconfig
 TARGET_KERNEL_SOURCE := kernel/oppo/CPH2083
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := r316199
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-r316199
+TARGET_KERNEL_NO_GCC := true
+KERNEL_FULL_LLVM := true
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6765
